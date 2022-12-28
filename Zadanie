@@ -1,0 +1,29 @@
+liczba = input("Podaj liczbę całkowitą: ")
+maks = liczba
+minimalna = liczba
+lista_liczb=[]
+
+lista_liczb.append(liczba)
+if maks < liczba:
+    maks = liczba
+elif minimalna > liczba:
+    minimalna = liczba
+
+
+liczba = input("Podaj liczbę całkowitą: ")
+lista_liczb.append(liczba)
+if maks < liczba:
+    maks = liczba
+elif minimalna > liczba:
+    minimalna = liczba
+
+liczba = input("Podaj liczbę całkowitą: ")
+lista_liczb.append(liczba)
+if maks < liczba:
+    maks = liczba
+elif minimalna > liczba:
+    minimalna = liczba
+
+
+print("Podane liczby to", lista_liczb)
+print("Najmniejsza liczba to ", minimalna, ",a największa to ", maks)
